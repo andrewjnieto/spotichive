@@ -1,0 +1,30 @@
+{
+  "name": "spotichive",
+  "version": "1.0.0",
+  "description": "Spotichive. A simple, accessible interface to download your liked songs, playlists, and user data.",
+  "main": "spotiserver/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjnieto/spotichive.git"
+  },
+  "keywords": [
+    "spotify",
+    "downloader",
+    "spotdl",
+    "etc."
+  ],
+  "author": "Andrew Nieto (andrewjnieto)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewjnieto/spotichive/issues"
+  },
+  "homepage": "https://github.com/andrewjnieto/spotichive#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
